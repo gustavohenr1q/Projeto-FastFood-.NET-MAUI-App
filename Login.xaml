@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="fastafood2._0.Login"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Login">
+
+    <ScrollView>
+
+
+
+
+        <VerticalStackLayout
+            Padding="40"
+            Spacing="10"
+            VerticalOptions="Start">
+
+            <Image HeightRequest="200" Source="fastfood.png" />
+
+            <Label
+                CharacterSpacing="0.1"
+                FontAttributes="Bold"
+                FontFamily="ComicRelief"
+                FontSize="20"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                Text="Olá Seja Bem Vindo!(a) &#10; Digite aqui &#10;o seu nome para continuar &#10;|&#10;V" />
+
+
+            <Entry
+                x:Name="txt_usuario"
+                Placeholder="Digite seu nome aqui!"
+                WidthRequest="360" />
+
+
+
+
+
+            <Button
+                x:Name="txt_user"
+                BackgroundColor="#f96a00"
+                Clicked="Button_Clicked"
+                HorizontalOptions="Center"
+                Text="Entrar"
+                TextColor="White"
+                WidthRequest="180" />
+
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="fastafood2._0.Protection"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Protection">
+
+
+
+
+    <ScrollView>
+
+
+        <VerticalStackLayout Padding="25" Spacing="30">
+
+            <Button
+                BackgroundColor="#f96a00"
+                Clicked="Button_Clicked"
+                FontSize="12"
+                HorizontalOptions="End"
+                Text="Desconectar-se"
+                TextColor="White" />
+
+
+
+
+            <Label
+                x:Name="nameperson"
+                FontAttributes="Bold"
+                FontFamily="ComicRelief"
+                FontSize="18"
+                HorizontalOptions="Center"
+                TextColor="#f96a00" />
+
+
+            <VerticalStackLayout>
+
+                <Image
+                    HeightRequest="200"
+                    HorizontalOptions="Center"
+                    Source="fastfood.png" />
+
+                <Label
+                    FontAttributes="Bold"
+                    FontFamily="ComicRelief"
+                    FontSize="30"
+                    HorizontalOptions="Center"
+                    Text="Monte o Lanche do Seu Jeito!" />
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+
+                <Picker
+                    x:Name="PaoPicker"
+                    Title="Selecione o Pão"
+                    WidthRequest="300">
+
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Pão Com Gergilim</x:String>
+                            <x:String>Pão Sem Gergilim</x:String>
+                            <x:String>Pão de Leite</x:String>
+                            <x:String>Pão Francês</x:String>
+                        </x:Array>
+
+                    </Picker.ItemsSource>
+
+
+                </Picker>
+
+            </VerticalStackLayout>
+
+
+
+
+            <VerticalStackLayout>
+
+
+
+                <Picker
+                    x:Name="HamburgPicker"
+                    Title="Selecione o Hamburguer"
+                    WidthRequest="300">
+
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Artesanal</x:String>
+                            <x:String>Artificial</x:String>
+                            <x:String>Bovino</x:String>
+                        </x:Array>
+
+                    </Picker.ItemsSource>
+
+
+
+                </Picker>
+
+
+            </VerticalStackLayout>
+
+
+
+            <VerticalStackLayout Spacing="12">
+
+
+
+                <Picker
+                    x:Name="Ing1"
+                    Title="Selecione o Ingrediente 1"
+                    WidthRequest="300">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Bacon</x:String>
+                            <x:String>Sem Bacon</x:String>
+
+                        </x:Array>
+
+                    </Picker.ItemsSource>
+
+                </Picker>
+
+                <Picker
+                    x:Name="Ing2"
+                    Title="Selecione o Ingrediente 2"
+                    WidthRequest="300">
+
+
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Alface</x:String>
+                            <x:String>Sem Alface</x:String>
+
+                        </x:Array>
+
+                    </Picker.ItemsSource>
+
+                </Picker>
+
+                <Picker
+                    x:Name="Ing3"
+                    Title="Selecione o Ingrediente 3"
+                    WidthRequest="300">
+
+
+
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Cebola</x:String>
+                            <x:String>Sem Cebola</x:String>
+                        </x:Array>
+
+                    </Picker.ItemsSource>
+
+                </Picker>
+
+            </VerticalStackLayout>
+
+
+            <Button
+                BackgroundColor="#f96a00"
+                Clicked="Button_Clicked_1"
+                FontAttributes="Bold"
+                FontFamily="ComicRelief"
+                HorizontalOptions="Center"
+                Text="Fazer Pedido"
+                TextColor="White" />
+
+
+
+
+
+
+
+        </VerticalStackLayout>
+
+
+    </ScrollView>
+
+
+</ContentPage>
