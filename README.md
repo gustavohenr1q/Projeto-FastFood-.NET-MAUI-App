@@ -14,9 +14,7 @@ O projeto nasceu como parte de uma iniciativa da empresa para **estimular a cria
 ---
 
 ### 🧠 Funcionalidades
-- Exibição de **itens de cardápio** com imagem, nome e preço  
-- **Adição de pedidos** a uma lista de consumo  
-- Cálculo simples de **valor total**  
+- **Adição de pedido** a uma lista de consumo  
 - Design responsivo e **interface amigável**  
 - Estrutura limpa e organizada em **C# + XAML**
 
@@ -26,7 +24,7 @@ O projeto nasceu como parte de uma iniciativa da empresa para **estimular a cria
 - **.NET MAUI**  
 - **C#**  
 - **XAML**  
-- **Visual Studio 2022**  
+- **Visual Studio 2022**
 
 ---
 
@@ -40,6 +38,8 @@ O foco deste projeto é **educacional**, buscando reforçar habilidades em:
 ---
 
 ### 📸 Preview do App
+
+
 
 
 ---
